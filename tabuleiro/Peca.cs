@@ -1,13 +1,16 @@
 using System;
 
-namespace tabuleiro{
-    class Peca{
+namespace tabuleiro
+{
+    class Peca
+    {
         public Posicao Posicao { get; set; }
         public Cor Cor { get; protected set; }
         public int QteMovimentos { get; protected set; }
-        public Tabuleiro Tab { get; set; }  
+        public Tabuleiro Tab { get; set; }
 
-        public Peca(Posicao posicao, Tabuleiro tab, Cor cor){
+        public Peca(Posicao posicao, Tabuleiro tab, Cor cor)
+        {
             Posicao = posicao;
             Tab = tab;
             Cor = cor;

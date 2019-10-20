@@ -7,7 +7,7 @@ namespace tabuleiro
         Amarela,
         Azul,
         Vermelha,
-        Verde, 
+        Verde,
         Laranja
     }
 }
