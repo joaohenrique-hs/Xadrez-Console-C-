@@ -1,6 +1,6 @@
 using System;
 
-namespace Tabuleiro
+namespace tabuleiro
 {
     class Posicao
     {
