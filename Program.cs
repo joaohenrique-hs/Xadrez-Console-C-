@@ -29,7 +29,7 @@ namespace Xadrez
                         Console.WriteLine("\nTurno: " + partida.Turno);
                         Console.WriteLine("Aguardando jogada: " + partida.JogadorAtual);
 
-                        Console.Write("\nDestino:" );
+                        Console.Write("\nDestino:");
                         Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
                         partida.validaPosicaoDeDestino(origem, destino);
 
